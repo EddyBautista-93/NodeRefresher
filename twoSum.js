@@ -12,5 +12,5 @@ var twoSum = function(nums, target) {
 };
 
 console.log(twoSum([2, 7, 11, 15], 9));
-console.log('hello');
+
 // Output [ 0, 1 ]
