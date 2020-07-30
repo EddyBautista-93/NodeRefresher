@@ -7,11 +7,11 @@
 
 const listSum = ( array, sum ) => {
     var sumArray = [];
-    for( let i = 0; i < array.length; i++ ) {
+    for( let i = 0; i < array.length; i+= 1 ) {
         console.log( array[i]  + array[i + 1]);
         for (let j = i + 1; j < array.length;j++){
             if(array[i] + array[j] === sum){
-                sumArray.push([array[i], array[j]])
+                console.log(sum);
             }
         }
     }        
