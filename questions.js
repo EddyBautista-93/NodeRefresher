@@ -23,7 +23,7 @@ process.stdin.on('data', data => {
     answers.push(data.toString().trim());
     if(answers.length < questions.length){
         ask(answers.length);
-    } else{
+    // } else{
         process.exit();    
     }
     
