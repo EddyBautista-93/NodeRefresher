@@ -11,7 +11,7 @@ function toWeirdCase(string){
    }).join(' ');
   }
 
-  toWeirdCase('Weird string case')
+  toWeirdCase('Weird string case');
 
 
   //diff method i found in codewars
