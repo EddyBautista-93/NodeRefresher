@@ -3,7 +3,7 @@ function toWeirdCase(string){
    return string.split(' ').map(function (word) {
    //return word by letter and index without a space 
    return word.split('').map(function(letter,index){
-    // if the index of the letter is even, change it to uppercase, if not to lowecase
+    // if the index of the letter is even, change it to uppercase, if not to lowercase
     return index % 2 == 0 ? letter.toUpperCase() : letter.toLowerCase();
     // join the same way we split earlier 
    }).join('');
